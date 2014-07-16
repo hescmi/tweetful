@@ -1,0 +1,8 @@
+API_URL = "https://api.twitter.com"
+REQUEST_TOKEN_URL = API_URL + "/oauth/request_token"
+AUTHORIZE_URL = API_URL + "/oauth/authorize?oauth_token={request_token}"
+ACCESS_TOKEN_URL = API_URL + "/oauth/access_token"
+TIMELINE_URL = API_URL + "/1.1/statuses/home_timeline.json"
+MESSAGES_URL = API_URL + "/1.1/direct_messages.json"
+FRIENDS_URL = API_URL + "/1.1/friends/list.jsonn?cursor=-1&screen_name="
+FOLLOWERS_URL = API_URL + "/1.1/followers/ids.json?cursor=-1&screen_name="
